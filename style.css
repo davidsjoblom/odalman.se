@@ -5,16 +5,21 @@
   padding: 0;
 }
 
-body {
-  display: flex;
-  justify-content: center;
+html {
   height: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .body-container {
-  max-width: 60rem;
   height: 100%;
   background-color: white;
+  max-width: 60rem;
 }
 
 header {
@@ -57,13 +62,23 @@ nav ul li a:hover {
 }
 
 main {
-  padding: 0;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-main img {
+.content-card {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem #666;
+}
+
+.logo-big {
   width: 100%;
-  max-width: 30rem;
+  max-width: 40rem;
+  padding: 1rem;
 }
 
 footer {
@@ -74,4 +89,12 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.phone {
+  height: 1.5rem;
+  filter: invert(100%);
+  padding: 0.3rem 0.3rem 0 0.3rem;
 }
