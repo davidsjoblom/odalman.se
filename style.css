@@ -18,8 +18,8 @@ body {
 }
 
 .body-container {
-  height: 100%;
-  background-color: white;
+  /* height: 100%;
+  background-color: white;*/
   width: 100%;
   max-width: 60rem;
 }
@@ -69,18 +69,31 @@ main {
   align-items: center;
 }
 
+.email-too-long {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .content-card {
-  padding: 1rem;
   margin: 1rem;
   text-align: center;
   border-radius: 1rem;
   box-shadow: 0 0 1rem #666;
+  font-size: larger;
+}
+
+p {
+  margin: 1rem;
+}
+
+h1 {
+  margin: 1rem;
 }
 
 .logo-big {
   width: 100%;
   max-width: 40rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 footer {
@@ -99,4 +112,18 @@ footer {
   height: 1.5rem;
   filter: invert(100%);
   padding: 0.3rem 0.3rem 0 0.3rem;
+}
+
+.spacer {
+  height: 2rem;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 0.5em auto;
+  padding: 0;
+  width: 30%;
 }
