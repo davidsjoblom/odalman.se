@@ -1,5 +1,6 @@
 * {
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: sans-serif; */
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -24,16 +25,10 @@ body {
   max-width: 60rem;
 }
 
-header {
-}
-
 header img {
   height: auto;
   width: 100%;
   display: block;
-}
-
-nav {
 }
 
 nav ul {
@@ -125,5 +120,18 @@ hr {
   border-top: 1px solid #000;
   margin: 0.5em auto;
   padding: 0;
-  width: 30%;
+  width: 50%;
+}
+
+.footer-phone-number {
+  color: white;
+  text-decoration: none;
+}
+
+/* a:link {
+  text-decoration: none;
+} */
+
+a:visited {
+  text-decoration: none;
 }
