@@ -25,16 +25,10 @@ body {
   max-width: 60rem;
 }
 
-header {
-}
-
 header img {
   height: auto;
   width: 100%;
   display: block;
-}
-
-nav {
 }
 
 nav ul {
